@@ -1,0 +1,593 @@
+/* import voor nieuwe font-variabelen */
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap");
+/* variabelen voor de fonts */
+/* variabelen voor de kleuren */
+/* breekpunt instellen voor van mobile naar screen */
+/* via een universele selector gaan we alles aanspreken */
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 2rem;
+  color: #1D2F2A;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.active {
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+}
+
+/* Downloadknopjes */
+.download {
+  border: 2px solid #F5DC4F;
+  border-radius: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #1D2F2A;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.download:hover {
+  background-color: #FEF9C7;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.download:active {
+  background-color: #116466;
+}
+
+/* Lees meer knopjes */
+.leesmeer {
+  border: 2px solid #F5DC4F;
+  background-color: #F5DC4F;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #FFFFFF;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.leesmeer:hover {
+  border: 2px solid #FEF9C7;
+  background-color: #FEF9C7;
+  color: #F5DC4F;
+  text-decoration: none;
+}
+
+.leesmeer:active {
+  background-color: #116466;
+  border: 2px solid #116466;
+  color: #FFFFFF;
+}
+
+/* Projecten knopjes */
+.projecten {
+  border: 2px solid #F5DC4F;
+  background-color: #F5DC4F;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #FFFFFF;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.projecten:hover {
+  border: 2px solid #FEF9C7;
+  background-color: #FEF9C7;
+  color: #F5DC4F;
+  text-decoration: none;
+}
+
+.projecten:active {
+  background-color: #116466;
+  border: 2px solid #116466;
+  color: #FFFFFF;
+}
+
+/* Website knopjes */
+.website {
+  border: 2px solid #F5DC4F;
+  background-color: #F5DC4F;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #FFFFFF;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.website:hover {
+  border: 2px solid #FEF9C7;
+  background-color: #FEF9C7;
+  color: #F5DC4F;
+  text-decoration: none;
+}
+
+.website:active {
+  background-color: #116466;
+  border: 2px solid #116466;
+  color: #FFFFFF;
+}
+
+/* Branding knopjes */
+.branding-knop {
+  border: 2px solid #F5DC4F;
+  background-color: #F5DC4F;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #FFFFFF;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.branding-knop:hover {
+  border: 2px solid #FEF9C7;
+  background-color: #FEF9C7;
+  color: #F5DC4F;
+  text-decoration: none;
+}
+
+.branding-knop:active {
+  background-color: #116466;
+  border: 2px solid #116466;
+  color: #FFFFFF;
+}
+
+/* Navigatie */
+.navbar-dark {
+  background-color: #116466;
+}
+
+.navbar-dark a {
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-right: 60px;
+  padding-bottom: 4px;
+  padding-right: 12px;
+}
+
+.navbar-dark a:hover {
+  border-bottom: solid 2px #F5DC4F;
+  text-decoration: none;
+}
+
+.navbar-dark a:active {
+  border-bottom: none;
+  text-decoration: none;
+  background-color: #F5DC4F;
+}
+
+.navbar-dark .navbar-header a {
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-left: 70px;
+}
+
+.navbar-dark .navbar-header a:hover {
+  border-bottom: none;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.navbar-dark .active {
+  border: none;
+  background-color: #116466;
+}
+
+.navbar-dark .active a {
+  color: #F5DC4F;
+}
+
+.navbar-dark .dropdown-menu {
+  background-color: #D1E8E2;
+}
+
+.navbar-dark .dropdown-menu a {
+  color: #FFFFFF;
+}
+
+.navbar-dark .dropdown-menu a:hover {
+  color: #116466;
+  background-color: #F5DC4F;
+  text-decoration: none;
+}
+
+/* header */
+.header-home-fl {
+  background-color: #116466;
+  color: #FFFFFF;
+  padding-top: 40px;
+  padding-left: 140px;
+}
+
+.header-home-fl h1 {
+  padding-top: 240px;
+  font-family: "Dancing script", sans-serif;
+  font-size: 120px;
+  padding-bottom: 0px;
+  color: #FFFFFF;
+}
+
+.header-home-fl h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  color: #F5DC4F;
+}
+
+/* INDEX */
+/* ABOUT HOME */
+.about-home {
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+
+.about-home h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 40px;
+  color: #116466;
+}
+
+.about-home .image-lijn {
+  padding-left: 46%;
+  padding-right: 38%;
+  margin-bottom: 20px;
+}
+
+.about-home p {
+  padding-top: 30px;
+}
+
+/* PORTFOLIO HOME */
+.portfolio-home-fl {
+  background-color: #D1E8E2;
+}
+
+.portfolio-home {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.portfolio-home h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 40px;
+  color: #116466;
+}
+
+.portfolio-home .image-lijn2 {
+  padding-left: 43%;
+  padding-right: 37%;
+  margin-bottom: 20px;
+}
+
+.portfolio-home .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.portfolio-home .text {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 18px;
+}
+
+.portfolio-home h3 {
+  color: #FFFFFF;
+}
+
+.portfolio-home .text:hover {
+  text-decoration: none;
+}
+
+/* CONTACT HOME */
+.contact-home {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.contact-home h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 40px;
+  color: #116466;
+}
+
+.contact-home .image-lijn2 {
+  padding-left: 44%;
+  padding-right: 38%;
+  margin-bottom: 20px;
+}
+
+/* portfolio */
+/* header portfolio */
+.header-portfolio-fl {
+  background-color: #116466;
+  color: #FFFFFF;
+  padding-top: 60px;
+}
+
+.header-portfolio-fl h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 76px;
+  text-align: center;
+  padding-bottom: 40px;
+  color: #FFFFFF;
+}
+
+/* portfolio */
+.portfolio {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+
+.portfolio .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.portfolio .text {
+  color: #D1E8E2;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 18px;
+}
+
+.portfolio .text:hover {
+  text-decoration: none;
+}
+
+/* Graphic */
+.graphic {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.graphic h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 40px;
+  color: #116466;
+}
+
+.graphic .image-lijn2 {
+  padding-left: 40%;
+  padding-right: 30%;
+  margin-bottom: 20px;
+}
+
+.graphic .graphic-images {
+  padding-top: 40px;
+}
+
+.graphic .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 52px;
+  padding-bottom: 12px;
+}
+
+.graphic p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  color: #116466;
+}
+
+/* Webdesign */
+.webdesign {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.webdesign h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 40px;
+  color: #116466;
+}
+
+.webdesign .image-lijn2 {
+  padding-left: 44%;
+  padding-right: 36%;
+  margin-bottom: 20px;
+}
+
+.webdesign .webdesign-images {
+  padding-top: 20px;
+}
+
+.webdesign .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+}
+
+.webdesign p {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #D1E8E2;
+}
+
+/* Website Pegasus */
+.pegasus-fl {
+  background-color: #f3f3f3;
+}
+
+.pegasus-images {
+  padding-bottom: 120px;
+}
+
+.pegasus-images .image {
+  padding-top: 40px;
+}
+
+/* Editorial design */
+.editorial {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.editorial h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 40px;
+  color: #116466;
+}
+
+.editorial .image-lijn2 {
+  padding-left: 40%;
+  padding-right: 30%;
+  margin-bottom: 20px;
+}
+
+.editorial .editorial-images {
+  padding-top: 80px;
+}
+
+.editorial .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.editorial h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #D1E8E2;
+  padding-top: 12px;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.editorial p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  color: #116466;
+  line-height: 1.7rem;
+}
+
+.editorial h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #116466;
+  line-height: 1rem;
+}
+
+/* Branding */
+.branding {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.branding h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 40px;
+  color: #116466;
+}
+
+.branding .image-lijn {
+  padding-left: 44%;
+  padding-right: 36%;
+  margin-bottom: 20px;
+}
+
+.branding .branding-images {
+  padding-top: 20px;
+}
+
+.branding .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+}
+
+.branding p {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #D1E8E2;
+}
+
+/* FOOTER */
+.page-footer {
+  background-color: #116466;
+  padding-top: 25px;
+}
+
+.page-footer .img {
+  height: 60px;
+  width: auto;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.page-footer p {
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding-bottom: 16px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Carrousel */
+.slides-fl {
+  background-color: #116466;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.carousel-indicators li {
+  background-color: #116466;
+}
+
+.carousel-indicators .active {
+  background-color: #D1E8E2;
+}
+
+.carousel-control-prev:hover {
+  background-color: #116466;
+  opacity: 0.1;
+}
+
+.carousel-control-next:hover {
+  background-color: #116466;
+  opacity: 0.1;
+}
+/*# sourceMappingURL=style.css.map */

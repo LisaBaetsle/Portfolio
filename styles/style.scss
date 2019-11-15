@@ -1,0 +1,629 @@
+/* import voor nieuwe font-variabelen */
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+
+/* variabelen voor de fonts */
+$fontset1: 'Dancing script',
+sans-serif;
+$fontset2: 'Roboto',
+sans-serif;
+
+/* variabelen voor de kleuren */
+$colorDY: #F5DC4F;
+$colorLY: #FEF9C7;
+$colorW: #FFFFFF;
+$colorB: #1D2F2A;
+$colorDG: #116466;
+$colorLG: #D1E8E2;
+
+/* breekpunt instellen voor van mobile naar screen */
+$breekpunt: 560px;
+$breekpuntsm: 768px;
+$breekpuntmd: 992px;
+$breekpuntlg: 1200px;
+
+/* via een universele selector gaan we alles aanspreken */
+* {
+    font-family: $fontset2;
+    font-size: 20px;
+    line-height: 2rem;
+    color: $colorB;
+}
+
+body {
+    background-color: $colorW;
+}
+
+.active {
+    border: 2px solid $colorW;
+    border-radius: 20px;
+}
+
+/* Downloadknopjes */
+.download {
+    border: 2px solid $colorDY;
+    border-radius: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: $colorB;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.download:hover {
+    background-color: $colorLY;
+    color: $colorW;
+    text-decoration: none;
+}
+
+.download:active {
+    background-color: $colorDG;
+}
+
+/* Lees meer knopjes */
+.leesmeer {
+    border: 2px solid $colorDY;
+    background-color: $colorDY;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: $colorW;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.leesmeer:hover {
+    border: 2px solid $colorLY;
+    background-color: $colorLY;
+    color: $colorDY;
+    text-decoration: none;
+}
+
+.leesmeer:active {
+    background-color: $colorDG;
+    border: 2px solid $colorDG;
+    color: $colorW;
+}
+
+/* Projecten knopjes */
+.projecten {
+    border: 2px solid $colorDY;
+    background-color: $colorDY;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: $colorW;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.projecten:hover {
+    border: 2px solid $colorLY;
+    background-color: $colorLY;
+    color: $colorDY;
+    text-decoration: none;
+}
+
+.projecten:active {
+    background-color: $colorDG;
+    border: 2px solid $colorDG;
+    color: $colorW;
+}
+
+/* Website knopjes */
+.website {
+    border: 2px solid $colorDY;
+    background-color: $colorDY;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: $colorW;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.website:hover {
+    border: 2px solid $colorLY;
+    background-color: $colorLY;
+    color: $colorDY;
+    text-decoration: none;
+}
+
+.website:active {
+    background-color: $colorDG;
+    border: 2px solid $colorDG;
+    color: $colorW;
+}
+
+/* Branding knopjes */
+.branding-knop {
+    border: 2px solid $colorDY;
+    background-color: $colorDY;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: $colorW;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.branding-knop:hover {
+    border: 2px solid $colorLY;
+    background-color: $colorLY;
+    color: $colorDY;
+    text-decoration: none;
+}
+
+.branding-knop:active {
+    background-color: $colorDG;
+    border: 2px solid $colorDG;
+    color: $colorW;
+}
+
+/* Navigatie */
+
+.navbar-dark {
+    background-color: $colorDG;
+
+    a {
+        color: $colorW;
+        font-size: 16px;
+        margin-right: 60px;
+        padding-bottom: 4px;
+        padding-right: 12px;
+    }
+
+    a:hover {
+        border-bottom: solid 2px $colorDY;
+        text-decoration: none;
+    }
+
+    a:active {
+        border-bottom: none;
+        text-decoration: none;
+        background-color: $colorDY;
+    }
+
+    .navbar-header {
+        a {
+            color: $colorW;
+            font-size: 16px;
+            margin-left: 70px;
+        }
+
+
+        a:hover {
+            border-bottom: none;
+            text-decoration: none;
+            color: $colorW;
+        }
+
+    }
+
+    .active {
+        border: none;
+        background-color: $colorDG;
+
+        a {
+            color: $colorDY;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: $colorLG;
+
+        a {
+            color: $colorW;
+        }
+
+        a:hover {
+            color: $colorDG;
+            background-color: $colorDY;
+            text-decoration: none;
+        }
+    }
+}
+
+/* header */
+.header-home-fl {
+    background-color: $colorDG;
+    color: $colorW;
+    padding-top: 40px;
+    padding-left: 140px;
+
+    h1 {
+        padding-top: 240px;
+        font-family: $fontset1;
+        font-size: 120px;
+        padding-bottom: 0px;
+        color: $colorW;
+    }
+
+    h2 {
+        font-family: $fontset2;
+        font-size: 24px;
+        font-style: italic;
+        color: $colorDY;
+    }
+}
+
+/* INDEX */
+
+/* ABOUT HOME */
+
+.about-home {
+    padding-top: 120px;
+    padding-bottom: 150px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 40px;
+        color: $colorDG;
+    }
+
+    .image-lijn {
+        padding-left: 46%;
+        padding-right: 38%;
+        margin-bottom: 20px;
+    }
+
+    p {
+        padding-top: 30px;
+    }
+}
+
+/* PORTFOLIO HOME */
+
+.portfolio-home-fl {
+    background-color: $colorLG;
+}
+
+.portfolio-home {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 40px;
+        color: $colorDG;
+    }
+
+    .image-lijn2 {
+        padding-left: 43%;
+        padding-right: 37%;
+        margin-bottom: 20px;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .text {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 18px;
+    }
+
+    h3 {
+        color: $colorW;
+    }
+
+    .text:hover {
+        text-decoration: none;
+    }
+
+}
+
+/* CONTACT HOME */
+
+.contact-home {
+    padding-top: 140px;
+    padding-bottom: 100px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 40px;
+        color: $colorDG;
+    }
+
+    .image-lijn2 {
+        padding-left: 44%;
+        padding-right: 38%;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* portfolio */
+
+/* header portfolio */
+.header-portfolio-fl {
+    background-color: $colorDG;
+    color: $colorW;
+    padding-top: 60px;
+
+    h1 {
+        font-family: $fontset2;
+        font-size: 76px;
+        text-align: center;
+        padding-bottom: 40px;
+        color: $colorW;
+    }
+}
+
+/* portfolio */
+.portfolio {
+    padding-top: 80px;
+    padding-bottom: 160px;
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .text {
+        color: $colorLG;
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 18px;
+    }
+
+    .text:hover {
+        text-decoration: none;
+    }
+
+}
+
+/* Graphic */
+
+.graphic {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 40px;
+        color: $colorDG;
+    }
+
+    .image-lijn2 {
+        padding-left: 40%;
+        padding-right: 30%;
+        margin-bottom: 20px;
+    }
+
+    .graphic-images {
+        padding-top: 40px;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-top: 52px;
+        padding-bottom: 12px;
+    }
+
+    p {
+        font-family: $fontset2;
+        font-size: 20px;
+        font-style: italic;
+        color: $colorDG;
+    }
+}
+
+/* Webdesign */
+
+.webdesign {
+    padding-top: 80px;
+    padding-bottom: 120px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 40px;
+        color: $colorDG;
+    }
+
+    .image-lijn2 {
+        padding-left: 44%;
+        padding-right: 36%;
+        margin-bottom: 20px;
+    }
+
+    .webdesign-images {
+        padding-top: 20px;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-top: 70px;
+    }
+
+    p {
+        font-family: $fontset2;
+        font-size: 36px;
+        color: $colorLG;
+    }
+}
+
+/* Website Pegasus */
+.pegasus-fl {
+    background-color: rgb(243, 243, 243);
+}
+
+.pegasus-images {
+    padding-bottom: 120px;
+
+    .image {
+        padding-top: 40px;
+    }
+}
+
+/* Editorial design */
+
+.editorial {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 40px;
+        color: $colorDG;
+    }
+
+    .image-lijn2 {
+        padding-left: 40%;
+        padding-right: 30%;
+        margin-bottom: 20px;
+    }
+
+
+    .editorial-images {
+        padding-top: 80px;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    h4 {
+        font-family: $fontset2;
+        font-size: 36px;
+        color: $colorLG;
+        padding-top: 12px;
+        font-style: italic;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-family: $fontset2;
+        font-size: 20px;
+        font-style: italic;
+        color: $colorDG;
+        line-height: 1.7rem;
+    }
+
+    h5 {
+        font-family: $fontset2;
+        font-size: 12px;
+        color: $colorDG;
+        line-height: 1rem;
+    }
+}
+
+/* Branding */
+
+.branding {
+    padding-top: 80px;
+    padding-bottom: 120px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 40px;
+        color: $colorDG;
+    }
+
+    .image-lijn {
+        padding-left: 44%;
+        padding-right: 36%;
+        margin-bottom: 20px;
+    }
+
+    .branding-images {
+        padding-top: 20px;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-top: 70px;
+    }
+
+    p {
+        font-family: $fontset2;
+        font-size: 36px;
+        color: $colorLG;
+    }
+}
+
+/* FOOTER */
+.page-footer {
+    background-color: $colorDG;
+    padding-top: 25px;
+
+    .img {
+        height: 60px;
+        width: auto;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+    p {
+        font-family: $fontset2;
+        color: $colorW;
+        font-size: 18px;
+        padding-bottom: 16px;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+/* Carrousel */
+
+ .slides-fl {
+     background-color:$colorDG ;
+     padding-top: 50px;
+     padding-bottom: 80px;
+ }
+
+
+.carousel-indicators li {
+    background-color: $colorDG;   
+}
+
+.carousel-indicators .active {
+    background-color: $colorLG;}
+
+    .carousel-control-prev:hover {
+        background-color: $colorDG;
+        opacity: 0.1; 
+    }
+
+    .carousel-control-next:hover {
+        background-color: $colorDG;
+        opacity: 0.1; 
+    }
