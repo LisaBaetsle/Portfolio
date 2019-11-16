@@ -113,6 +113,38 @@ body {
   color: #FFFFFF;
 }
 
+/* Terug knopjes */
+.terug {
+  margin-left: 24px;
+  color: #116466;
+  font-style: italic;
+}
+
+.terug:hover {
+  border-bottom: solid 3px #F5DC4F;
+  color: #116466;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.terug:active {
+  background-color: #F5DC4F;
+  border: 2px solid #F5DC4F;
+  color: #116466;
+}
+
+.fa-chevron-left {
+  color: #116466;
+}
+
+.container-terug {
+  padding-top: 18px;
+}
+
+.container-terug-fl {
+  background-color: #D1E8E2;
+}
+
 /* Branding knopjes */
 .branding-knop {
   border: 2px solid #F5DC4F;
@@ -282,7 +314,7 @@ body {
 
 .portfolio-home .text {
   color: white;
-  font-size: 40px;
+  font-size: 36px;
   text-align: center;
   padding-bottom: 18px;
 }
@@ -345,7 +377,7 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 18px;
 }
 
 .portfolio .text {
@@ -402,7 +434,7 @@ body {
 /* Webdesign */
 .webdesign {
   padding-top: 80px;
-  padding-bottom: 120px;
+  padding-bottom: 160px;
 }
 
 .webdesign h3 {
@@ -420,21 +452,18 @@ body {
   margin-bottom: 20px;
 }
 
-.webdesign .webdesign-images {
-  padding-top: 20px;
-}
-
 .webdesign .image {
   display: block;
   width: 100%;
   height: auto;
-  padding-top: 70px;
+  padding-top: 90px;
 }
 
 .webdesign p {
   font-family: "Roboto", sans-serif;
-  font-size: 36px;
-  color: #D1E8E2;
+  font-size: 32px;
+  color: #1D2F2A;
+  font-style: italic;
 }
 
 /* Website Pegasus */
@@ -472,29 +501,28 @@ body {
 }
 
 .editorial .editorial-images {
-  padding-top: 80px;
+  padding-top: 90px;
 }
 
 .editorial .image {
   display: block;
   width: 100%;
   height: auto;
-  padding-bottom: 20px;
+  padding-bottom: 18px;
 }
 
 .editorial h4 {
   font-family: "Roboto", sans-serif;
-  font-size: 36px;
-  color: #D1E8E2;
-  padding-top: 12px;
+  font-size: 30px;
+  color: #1D2F2A;
   font-style: italic;
+  padding-top: 10px;
   margin-bottom: 8px;
 }
 
 .editorial p {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  font-style: italic;
   color: #116466;
   line-height: 1.7rem;
 }
@@ -503,7 +531,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   color: #116466;
-  line-height: 1rem;
+  line-height: 0.3rem;
+  padding-bottom: 8px;
 }
 
 /* Branding */
@@ -527,21 +556,19 @@ body {
   margin-bottom: 20px;
 }
 
-.branding .branding-images {
-  padding-top: 20px;
-}
-
 .branding .image {
   display: block;
   width: 100%;
   height: auto;
-  padding-top: 70px;
+  padding-top: 110px;
+  padding-bottom: 20px;
 }
 
 .branding p {
   font-family: "Roboto", sans-serif;
-  font-size: 36px;
-  color: #D1E8E2;
+  font-size: 30px;
+  color: #1D2F2A;
+  font-style: italic;
 }
 
 /* FOOTER */
@@ -568,13 +595,13 @@ body {
 
 /* Carrousel */
 .slides-fl {
-  background-color: #116466;
+  background-color: #D1E8E2;
   padding-top: 50px;
   padding-bottom: 80px;
 }
 
 .carousel-indicators li {
-  background-color: #116466;
+  background-color: #D1E8E2;
 }
 
 .carousel-indicators .active {
@@ -589,5 +616,27 @@ body {
 .carousel-control-next:hover {
   background-color: #116466;
   opacity: 0.1;
+}
+
+.carousel {
+  overflow: hidden;
+  border: none;
+}
+
+.carousel-inner {
+  border-radius: 0px;
+  background-color: #D1E8E2;
+}
+
+.carousel-inner .active {
+  border-radius: 0px;
+}
+
+.carousel-inner .d-block {
+  border-radius: 0px;
+}
+
+.inner-za {
+  background-color: white;
 }
 /*# sourceMappingURL=style.css.map */
