@@ -16,7 +16,7 @@ $colorDG: #116466;
 $colorLG: #D1E8E2;
 
 /* breekpunt instellen voor van mobile naar screen */
-$breekpunt: 560px;
+$breekpunt: 576px;
 $breekpuntsm: 768px;
 $breekpuntmd: 992px;
 $breekpuntlg: 1200px;
@@ -37,6 +37,8 @@ body {
     border: 2px solid $colorW;
     border-radius: 20px;
 }
+
+/* BUTTONS */
 
 /* Downloadknopjes */
 .download {
@@ -151,7 +153,7 @@ body {
     color: $colorDG;
 }
 
-.fa-chevron-left{
+.fa-chevron-left {
     color: $colorDG;
 }
 
@@ -187,15 +189,13 @@ body {
     color: $colorW;
 }
 
-/* Navigatie */
-
+/* NAVIGATIE */
 .navbar-dark {
     background-color: $colorDG;
 
     a {
         color: $colorW;
         font-size: 16px;
-        margin-right: 60px;
         padding-bottom: 4px;
         padding-right: 12px;
     }
@@ -251,36 +251,238 @@ body {
     }
 }
 
-/* header */
-.header-home-fl {
-    background-color: $colorDG;
-    color: $colorW;
-    padding-top: 40px;
-    padding-left: 140px;
+@media(min-width:$breekpunt) {
+    .navbar-dark .navbar-header a {
+        margin-left: 300px;
+        margin-right: 0px;
+    }
+}
 
-    h1 {
-        padding-top: 240px;
-        font-family: $fontset1;
-        font-size: 120px;
-        padding-bottom: 0px;
-        color: $colorW;
+@media(min-width:$breekpuntsm) {
+    .navbar-dark .navbar-header a {
+        margin-left: 470px;
+        margin-right: 0px;
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .navbar-dark .navbar-header a {
+        margin-left: 30px;
+        margin-right: 20px;
     }
 
-    h2 {
-        font-family: $fontset2;
-        font-size: 24px;
-        font-style: italic;
-        color: $colorDY;
+    .navbar-dark {
+        a {
+            margin-right: 60px;
+        }
+
+    }
+}
+
+/* ACHTERGRONDEN */
+
+.portfolio-bg-fl {
+    background-image: url("images/bg-gr-r-xs.png");
+    min-height: 84px;
+    background-size: cover;
+    background-position: center top;
+
+    @media(min-width:$breekpunt) {
+        background-image: url("images/bg-gr-r-s.png");
+        min-height: 110px;
+    }
+
+    @media(min-width:$breekpuntsm) {
+        background-image: url("images/bg-gr-r-m.png");
+        min-height: 130px;
+    }
+
+    @media(min-width:$breekpuntmd) {
+        background-image: url("images/bg-gr-r-l.png");
+        min-height: 111px;
+    }
+}
+
+.portfolio-bg-l-fl {
+    background-image: url("images/bg-gr-l-xs.png");
+    min-height: 78px;
+    background-size: cover;
+    background-position: center top;
+
+    @media(min-width:$breekpunt) {
+        background-image: url("images/bg-gr-l-s.png");
+        min-height: 110px;
+    }
+
+    @media(min-width:$breekpuntsm) {
+        background-image: url("images/bg-gr-l-m.png");
+        min-height: 130px;
+    }
+
+    @media(min-width:$breekpuntmd) {
+        background-image: url("images/bg-gr-l-l.png");
+        min-height: 111px;
+    }
+}
+
+.portfolio-bg-lgr-r-fl {
+    background-image: url("images/bg-lgr-r-xs.png");
+    min-height: 74px;
+    background-size: cover;
+    background-position: center top;
+
+    @media(min-width:$breekpunt) {
+        background-image: url("images/bg-lgr-r-s.png");
+        min-height: 110px;
+    }
+
+    @media(min-width:$breekpuntsm) {
+        background-image: url("images/bg-lgr-r-m.png");
+        min-height: 130px;
+    }
+
+    @media(min-width:$breekpuntmd) {
+        background-image: url("images/bg-lgr-r-l.png");
+        min-height: 111px;
+    }
+}
+
+.portfolio-bg-lgr-l-fl {
+    background-image: url("images/bg-lgr-l-xs.png");
+    min-height: 74px;
+    background-size: cover;
+    background-position: center bottom;
+
+    @media(min-width:$breekpunt) {
+        background-image: url("images/bg-lgr-l-s.png");
+        min-height: 110px;
+    }
+
+    @media(min-width:$breekpuntsm) {
+        background-image: url("images/bg-lgr-l-m.png");
+        min-height: 130px;
+    }
+
+    @media(min-width:$breekpuntmd) {
+        background-image: url("images/bg-lgr-l-l.png");
+        min-height: 111px;
     }
 }
 
 /* INDEX */
 
-/* ABOUT HOME */
+/* HOME HEADER */
+.header-home-fl {
+    background-color: $colorDG;
+    color: $colorW;
+    padding-left: 50px;
+
+    h1 {
+        padding-top: 80px;
+        font-family: $fontset1;
+        font-size: 60px;
+        text-align: center;
+        padding-bottom: 0px;
+        color: $colorW;
+        line-height: 2.4rem;
+    }
+
+    h2 {
+        font-family: $fontset2;
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+        color: $colorDY;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media(min-width:$breekpunt) {
+    .header-home-fl {
+        padding-left: 60px;
+
+
+        h1 {
+            padding-top: 180px;
+            font-size: 100px;
+            line-height: 4rem;
+        }
+
+        h2 {
+            font-size: 24px;
+            padding-bottom: 40px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntsm) {
+    .header-home-fl {
+        padding-top: 40px;
+        padding-left: 60px;
+
+        h1 {
+            padding-top: 40px;
+            font-size: 110px;
+            padding-bottom: 0px;
+            text-align: left;
+            line-height: 5.4rem;
+        }
+
+        h2 {
+            font-size: 18px;
+            text-align: left;
+            padding-bottom: 0px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .header-home-fl {
+        padding-top: 40px;
+        padding-left: 60px;
+
+        h1 {
+            padding-top: 160px;
+            font-size: 96px;
+            padding-bottom: 0px;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 24px;
+            text-align: left;
+            padding-bottom: 0px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntlg) {
+    .header-home-fl {
+        padding-top: 40px;
+        padding-left: 140px;
+
+        h1 {
+            padding-top: 180px;
+            font-size: 110px;
+            padding-bottom: 0px;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 24px;
+            text-align: left;
+            padding-bottom: 0px;
+        }
+    }
+}
+
+
+/* HOME ABOUT */
 
 .about-home {
-    padding-top: 120px;
-    padding-bottom: 150px;
+    padding-top: 70px;
+    padding-bottom: 80px;
 
     h3 {
         font-family: $fontset2;
@@ -292,20 +494,82 @@ body {
     }
 
     .image-lijn {
-        padding-left: 46%;
-        padding-right: 38%;
-        margin-bottom: 20px;
+        padding-left: 34%;
+        padding-right: 22%;
+        margin-bottom: 30px;
+    }
+
+    .contact-text {
+        margin-top: 20px;
     }
 
     p {
-        padding-top: 30px;
+        font-size: 15px;
+        line-height: 1.4rem;
+    }
+
+}
+
+@media(min-width:$breekpunt) {
+    .about-home {
+        .image-lijn {
+            padding-left: 42%;
+            padding-right: 32%;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 2rem;
+        }
     }
 }
 
-/* PORTFOLIO HOME */
+@media(min-width:$breekpuntsm) {
+    .about-home {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .image-lijn {
+            padding-left: 45%;
+            padding-right: 37%;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 2rem;
+        }
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .about-home {
+        padding-top: 140px;
+
+        .image-lijn {
+            padding-left: 44%;
+            padding-right: 38%;
+        }
+    }
+}
+
+@media(min-width:$breekpuntlg) {
+    .about-home {
+        padding-top: 140px;
+
+        .image-lijn {
+            padding-left: 47%;
+            padding-right: 40%;
+        }
+    }
+}
+
+/* HOME PORTFOLIO*/
 
 .portfolio-home-fl {
     background-color: $colorLG;
+    margin-top: 0px;
 }
 
 .portfolio-home {
@@ -322,8 +586,8 @@ body {
     }
 
     .image-lijn2 {
-        padding-left: 43%;
-        padding-right: 37%;
+        padding-left: 23%;
+        padding-right: 10%;
         margin-bottom: 20px;
     }
 
@@ -354,78 +618,55 @@ body {
 
 }
 
-/* CONTACT HOME */
+@media(min-width:$breekpunt) {
+    .portfolio-home {
+        .image-lijn2 {
+            padding-left: 34%;
+            padding-right: 22%;
+            margin-bottom: 20px;
+        }
+    }
+}
 
+@media(min-width:$breekpuntsm) {
+    .portfolio-home {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .image-lijn2 {
+            padding-left: 40%;
+            padding-right: 32%;
+            margin-bottom: 20px;
+        }
+
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .portfolio-home {
+        padding-top: 140px;
+
+        .image-lijn2 {
+            padding-left: 42%;
+            padding-right: 34%;
+        }
+    }
+}
+
+@media(min-width:$breekpuntlg) {
+    .portfolio-home {
+        padding-top: 140px;
+
+        .image-lijn2 {
+            padding-left: 43%;
+            padding-right: 37%;
+        }
+    }
+}
+
+/* HOME CONTACT*/
 .contact-home {
-    padding-top: 140px;
-    padding-bottom: 100px;
-
-    h3 {
-        font-family: $fontset2;
-        font-weight: 600;
-        line-height: 1rem;
-        text-align: center;
-        font-size: 40px;
-        color: $colorDG;
-    }
-
-    .image-lijn2 {
-        padding-left: 44%;
-        padding-right: 38%;
-        margin-bottom: 20px;
-    }
-
-}
-
-/* portfolio */
-
-/* header portfolio */
-.header-portfolio-fl {
-    background-color: $colorDG;
-    color: $colorW;
-    padding-top: 60px;
-
-    h1 {
-        font-family: $fontset2;
-        font-size: 76px;
-        text-align: center;
-        padding-bottom: 40px;
-        color: $colorW;
-    }
-}
-
-/* portfolio */
-.portfolio {
-    padding-top: 80px;
-    padding-bottom: 160px;
-
-    .image {
-        display: block;
-        width: 100%;
-        height: auto;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 40px;
-        padding-bottom: 18px;
-    }
-
-    .text {
-        color: $colorLG;
-        font-size: 40px;
-        text-align: center;
-        padding-bottom: 18px;
-    }
-
-    .text:hover {
-        text-decoration: none;
-    }
-
-}
-
-/* Graphic */
-
-.graphic {
-    padding-top: 80px;
+    padding-top: 70px;
     padding-bottom: 80px;
 
     h3 {
@@ -438,32 +679,67 @@ body {
     }
 
     .image-lijn2 {
-        padding-left: 40%;
-        padding-right: 30%;
-        margin-bottom: 20px;
+        padding-left: 28%;
+        padding-right: 8%;
+        margin-bottom: 30px;
     }
 
-    .graphic-images {
-        padding-top: 40px;
-    }
-
-    .image {
-        display: block;
-        width: 100%;
-        height: auto;
-        padding-top: 52px;
-        padding-bottom: 12px;
+    .contact-text {
+        margin-top: 20px;
     }
 
     p {
-        font-family: $fontset2;
-        font-size: 20px;
-        font-style: italic;
-        color: $colorDG;
+        font-size: 15px;
+        line-height: 1rem;
+    }
+
+}
+
+@media(min-width:$breekpunt) {
+    .contact-home {
+        .image-lijn2 {
+            padding-left: 38%;
+            padding-right: 28%;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 2rem;
+        }
     }
 }
 
-/* Webdesign */
+@media(min-width:$breekpuntsm) {
+    .contact-home {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .image-lijn2 {
+            padding-left: 40%;
+            padding-right: 32%;
+            margin-bottom: 20px;
+        }
+
+        .contact-text {
+            margin-top: 0px;
+        }
+
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .contact-home {
+        padding-top: 140px;
+
+        .image-lijn2 {
+            padding-left: 44%;
+            padding-right: 38%;
+        }
+    }
+}
+
+/* WEBDESIGN */
 
 .webdesign {
     padding-top: 80px;
@@ -474,28 +750,80 @@ body {
         font-weight: 600;
         line-height: 1rem;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         color: $colorDG;
     }
 
     .image-lijn2 {
-        padding-left: 44%;
-        padding-right: 36%;
+        padding-left: 28%;
+        padding-right: 8%;
         margin-bottom: 20px;
+    }
+
+    .webdesign-images {
+        padding-top: 50px;
+        margin-bottom: 50px;
     }
 
     .image {
         display: block;
         width: 100%;
         height: auto;
-        padding-top: 90px;
+        padding-bottom: 10px;
     }
 
     p {
         font-family: $fontset2;
-        font-size: 32px;
+        font-size: 28px;
         color: $colorB;
         font-style: italic;
+    }
+}
+
+@media(min-width:$breekpunt) {
+    .webdesign {
+        h3 {
+            font-size: 40px;
+        }
+
+        .image-lijn2 {
+            padding-left: 36%;
+            padding-right: 24%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntsm) {
+    .webdesign {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .image-lijn2 {
+            padding-left: 40%;
+            padding-right: 30%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .webdesign {
+        padding-top: 80px;
+        padding-bottom: 160px;
+
+        .image-lijn2 {
+            padding-left: 44%;
+            padding-right: 36%;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: $fontset2;
+            font-size: 32px;
+            color: $colorB;
+            font-style: italic;
+        }
     }
 }
 
@@ -512,8 +840,145 @@ body {
     }
 }
 
-/* Editorial design */
+/* BRANDING */
 
+.branding {
+    padding-top: 80px;
+    padding-bottom: 90px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 30px;
+        color: $colorDG;
+    }
+
+    .image-lijn {
+        padding-left: 28%;
+        padding-right: 14%;
+        margin-bottom: 20px;
+    }
+
+    .branding-images {
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-bottom: 24px;
+    }
+
+    p {
+        font-family: $fontset2;
+        font-size: 30px;
+        color: $colorB;
+        font-style: italic;
+    }
+}
+
+@media(min-width:$breekpunt) {
+    .branding {
+        h3 {
+            font-size: 40px;
+        }
+
+        .image-lijn {
+            padding-left: 36%;
+            padding-right: 24%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntsm) {
+    .branding {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .image-lijn {
+            padding-left: 40%;
+            padding-right: 30%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .branding {
+        padding-top: 80px;
+        padding-bottom: 160px;
+
+        .image-lijn {
+            padding-left: 44%;
+            padding-right: 36%;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: $fontset2;
+            font-size: 32px;
+            color: $colorB;
+            font-style: italic;
+        }
+    }
+}
+
+/* CARROUSEL BRANDING */
+
+.slides-fl {
+    background-color: $colorLG;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+
+.carousel-indicators li {
+    background-color: $colorLG;
+}
+
+.carousel-indicators .active {
+    background-color: $colorLG;
+}
+
+.carousel-control-prev:hover {
+    background-color: $colorDG;
+    opacity: 0.1;
+}
+
+.carousel-control-next:hover {
+    background-color: $colorDG;
+    opacity: 0.1;
+}
+
+.carousel {
+    overflow: hidden;
+    border: none;
+}
+
+.carousel-inner {
+    border-radius: 0px;
+    background-color: $colorLG;
+
+
+    .active {
+        border-radius: 0px;
+    }
+
+    .d-block {
+        border-radius: 0px;
+    }
+}
+
+.inner-za {
+    background-color: white;
+}
+
+/* EDITORIAL DESIGN */
 .editorial {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -523,31 +988,32 @@ body {
         font-weight: 600;
         line-height: 1rem;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         color: $colorDG;
     }
 
     .image-lijn2 {
-        padding-left: 40%;
-        padding-right: 30%;
+        padding-left: 8%;
+        padding-right: 0%;
         margin-bottom: 20px;
     }
 
 
     .editorial-images {
-        padding-top: 90px;
+        padding-top: 50px;
+        margin-bottom: 50px;
     }
 
     .image {
         display: block;
         width: 100%;
         height: auto;
-        padding-bottom: 18px;
+        padding-bottom: 12px;
     }
 
     h4 {
         font-family: $fontset2;
-        font-size: 30px;
+        font-size: 24px;
         color: $colorB;
         font-style: italic;
         padding-top: 10px;
@@ -556,7 +1022,7 @@ body {
 
     p {
         font-family: $fontset2;
-        font-size: 20px;
+        font-size: 18px;
         color: $colorDG;
         line-height: 1.7rem;
     }
@@ -570,111 +1036,241 @@ body {
     }
 }
 
-/* Branding */
+@media(min-width:$breekpunt) {
+    .editorial {
 
-.branding {
+        h3 {
+            font-size: 40px;
+        }
+
+        .image-lijn2 {
+            padding-left: 22%;
+            padding-right: 8%;
+        }
+
+        h4 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntsm) {
+    .editorial {
+        .image-lijn2 {
+            padding-left: 32%;
+            padding-right: 20%;
+        }
+
+
+        h4 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .editorial {
+        .image-lijn2 {
+            padding-left: 36%;
+            padding-right: 28%;
+        }
+
+        .image {
+            padding-top: 24px;
+        }
+    }
+}
+
+
+@media(min-width:$breekpuntlg) {
+    .editorial {
+        .image-lijn2 {
+            padding-left: 40%;
+            padding-right: 30%;
+        }
+
+        .editorial-images {
+            padding-top: 90px;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+            padding-bottom: 18px;
+        }
+
+        h4 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+
+/* GRAPHIC DESIGN */
+
+.graphic {
     padding-top: 80px;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 
     h3 {
         font-family: $fontset2;
         font-weight: 600;
         line-height: 1rem;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         color: $colorDG;
     }
 
-    .image-lijn {
-        padding-left: 44%;
-        padding-right: 36%;
+    .image-lijn2 {
+        padding-left: 10%;
+        padding-right: 0%;
         margin-bottom: 20px;
     }
 
+    .graphic-images {
+        padding-top: 16px;
+    }
 
     .image {
         display: block;
         width: 100%;
         height: auto;
-        padding-top: 110px;
-        padding-bottom: 20px;
+        padding-top: 52px;
+        padding-bottom: 12px;
     }
 
     p {
         font-family: $fontset2;
-        font-size: 30px;
-        color: $colorB;
+        font-size: 18px;
         font-style: italic;
+        color: $colorDG;
+        padding-bottom: 18px;
     }
 }
+
+@media(min-width:$breekpunt) {
+    .graphic {
+
+        h3 {
+            font-size: 40px;
+        }
+
+        .image-lijn2 {
+            padding-left: 27%;
+            padding-right: 14%;
+        }
+
+        .graphic-images {
+            padding-top: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntsm) {
+    .graphic {
+        .image-lijn2 {
+            padding-left: 34%;
+            padding-right: 22%;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5rem;
+        }
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .graphic {
+        .image-lijn2 {
+            padding-left: 40%;
+            padding-right: 30%;
+            margin-bottom: 20px;
+        }
+
+        .graphic-images {
+            padding-top: 40px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
 
 /* FOOTER */
 .page-footer {
     background-color: $colorDG;
-    padding-top: 25px;
-
-    .img {
-        height: 60px;
-        width: auto;
-        padding-left: 10px;
-        padding-top: 15px;
-    }
+    padding-top: 10px;
 
     p {
         font-family: $fontset2;
         color: $colorW;
-        font-size: 18px;
-        padding-bottom: 16px;
+        font-size: 12px;
+        padding-bottom: 10px;
         text-align: center;
         padding-top: 20px;
     }
 }
 
-/* Carrousel */
-
- .slides-fl {
-     background-color:$colorLG ;
-     padding-top: 50px;
-     padding-bottom: 80px;
- }
-
-
-.carousel-indicators li {
-    background-color: $colorLG;
+@media(min-width:$breekpunt) {
+    .page-footer {
+        p {
+            font-size: 16px;
+        }
+    }
 }
 
-.carousel-indicators .active {
-    background-color: $colorLG;}
-
-    .carousel-control-prev:hover {
-        background-color: $colorDG;
-        opacity: 0.1; 
-    }
-
-    .carousel-control-next:hover {
-        background-color: $colorDG;
-        opacity: 0.1; 
-    }
-
-    .carousel {
-        overflow: hidden;
-        border: none;
-    }
-
-    .carousel-inner {
-        border-radius: 0px;
-        background-color: $colorLG;
+@media(min-width:$breekpuntsm) {
+    .page-footer {
+        padding-top: 25px;
 
 
-        .active {
-            border-radius: 0px;
+        .img {
+            height: 80px;
+            width: auto;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 20px;
         }
 
-        .d-block {
-            border-radius: 0px;
+        p {
+            font-size: 16px;
+            padding-bottom: 16px;
         }
     }
+}
 
-    .inner-za {
-        background-color: white;
+@media(min-width:$breekpuntmd) {
+    .page-footer {
+        .img {
+            height: 84px;
+            width: auto;
+            padding-left: 10px;
+            padding-top: 15px;
+        }
+
+        p {
+            font-size: 18px;
+        }
     }
+}
