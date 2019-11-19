@@ -739,6 +739,473 @@ body {
     }
 }
 
+/* ABOUT ME HEADER */
+.header-about-fl {
+    background-color: $colorDG;
+    color: $colorW;
+    padding-top: 90px;
+    padding-bottom: 20px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 40px;
+        color: $colorW;
+    }
+}
+
+/* ABOUT ME SPLITSCREEN */
+
+.split-screen {
+    margin-top: 80px;
+}
+
+@media(min-width:$breekpuntmd) {
+    .left {
+    float: left;
+    margin: 0 1.5%;
+    width: 42%;
+}
+
+.right {
+    float: right;
+    margin: 0 1.5%;
+    width: 42%;
+}}
+
+/* ABOUT ME LEFT SCREEN */
+
+.left {
+    margin-left: 8%;
+
+    h1 {
+        font-family: $fontset2;
+        line-height: 2rem;
+        text-align: center;
+        font-size: 30px;
+        color: $colorDG;
+        margin-top: 30px;
+    }
+
+    h2{
+        font-family: $fontset2;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 24px;
+        color: $colorB;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: left;
+        font-size: 40px;
+        color: $colorDG;
+        margin-top: 90px;
+    }
+
+    .image-lijn {
+        padding-left: 3%;
+        padding-right: 68%;
+        margin-bottom: 20px;
+    }
+
+    .image-lijn-p {
+        padding-left: 3%;
+        padding-right: 62%;
+        margin-bottom: 20px;
+    }
+
+    .image-score {
+        margin-bottom: 32px;
+        margin-top: 10px;
+        max-height: 18px;
+    }
+
+    .image-ops {
+        margin-bottom: 32px;
+        margin-top: 8px;
+        max-height: 20px;
+        padding-left: 22px;
+    }
+}
+
+@media(min-width:$breekpunt) {
+    .left {
+        .image-lijn {
+            padding-left: 3%;
+            padding-right: 68%;
+        }
+
+        .image-lijn-p {
+            padding-left: 3%;
+            padding-right: 62%;
+        }
+
+        .image-score {
+            margin-bottom: 32px;
+            margin-top: 10px;
+            max-height: 18px;
+        }
+
+        .image-ops {
+            margin-bottom: 32px;
+            margin-top: 8px;
+            max-height: 20px;
+            padding-left: 22px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntsm) {
+    .left {
+        .image-lijn {
+            padding-left: 3%;
+            padding-right: 78%;
+        }
+
+        .image-lijn-p {
+            padding-left: 3%;
+            padding-right: 72%;
+        }
+
+        .image-score {
+            margin-bottom: 32px;
+            margin-top: 10px;
+            max-height: 18px;
+            padding-right: 30px;
+        }
+
+        .image-ops {
+            margin-bottom: 32px;
+            margin-top: 8px;
+            max-height: 20px;
+            padding-left: 40px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .left {
+        .image-lijn {
+            padding-left: 6%;
+            padding-right: 60%;
+        }
+
+        .image-lijn-p {
+            padding-left: 6%;
+            padding-right: 50%;
+        }
+
+        .image-score {
+            margin-bottom: 32px;
+            margin-top: 9px;
+            max-height: 18px;
+            padding-left: 20px;
+        }
+
+        .image-ops {
+            margin-bottom: 32px;
+            margin-top: 8px;
+            max-height: 20px;
+            padding-left: 26px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntlg) {
+    .left {
+        .image-lijn {
+            padding-left: 3%;
+            padding-right: 74%;
+        }
+
+        .image-lijn-p {
+            padding-left: 3%;
+            padding-right: 68%;
+        }
+
+        .image-score {
+            margin-bottom: 32px;
+            margin-top: 10px;
+            max-height: 18px;
+        }
+
+        .image-ops {
+            margin-bottom: 32px;
+            margin-top: 8px;
+            max-height: 20px;
+            padding-left: 36px;
+        }
+    }
+}
+
+/* ABOUT ME RIGHT SCREEN */
+
+.right {
+    margin-left: 8%;
+    margin-right: 6%;
+
+    h1 {
+        font-family: $fontset2;
+        line-height: 2rem;
+        text-align: left;
+        font-size: 20px;
+        color: $colorB;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: left;
+        font-size: 40px;
+        color: $colorDG;
+        margin-top: 90px;
+    }
+
+    .image-lijn {
+        padding-left: 3%;
+        padding-right: 60%;
+        margin-bottom: 20px;
+    }
+
+    .image-lijn2 {
+        padding-left: 3%;
+        padding-right: 48%;
+        margin-bottom: 20px;
+    }
+
+    .image-score {
+        margin-bottom: 31px;
+        margin-top: 17px;
+    }
+
+    .image-soft {
+        margin-bottom: 33px;
+        margin-top: 10px;
+        max-height: 60px;
+    }
+}
+
+@media(min-width:$breekpunt) {
+    .right {
+        margin-left: 8%;
+
+        .image-lijn {
+            padding-left: 3%;
+            padding-right: 65%;
+        }
+
+        .image-lijn2 {
+            padding-left: 3%;
+            padding-right: 54%;
+        }
+    }
+}
+
+@media(min-width:$breekpuntsm) {
+    .right {
+        margin-left: 8%;
+
+        .image-lijn {
+            padding-left: 3%;
+            padding-right: 75%;
+        }
+
+        .image-lijn2 {
+            padding-left: 3%;
+            padding-right: 65%;
+        }
+
+        .image-score {
+            margin-bottom: 29px;
+            margin-top: 13px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .right {
+        margin-left: 0%;
+
+        .image-lijn {
+            padding-left: 6%;
+            padding-right: 58%;
+        }
+
+        .image-lijn2 {
+            padding-left: 6%;
+            padding-right: 38%;
+        }
+
+        .image-score {
+            margin-bottom: 33px;
+            margin-top: 17px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntlg) {
+    .right {
+        .image-lijn {
+            padding-left: 3%;
+            padding-right: 68%;
+        }
+
+        .image-lijn2 {
+            padding-left: 3%;
+            padding-right: 58%;
+        }
+
+        .image-score {
+            margin-bottom: 31px;
+            margin-top: 17px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+/* ABOUT ME TIMELINE */
+.portfolio-bg-lgr-r-fl {
+    clear: both;
+}
+
+.about-tijdlijn-fl {
+    background-color: $colorLG;
+}
+
+.about-tijdlijn-titel {
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 40px;
+        color: $colorW;
+    }
+
+    .image-lijn {
+        padding-left: 34%;
+        padding-right: 22%;
+        margin-bottom: 30px;
+    }
+}
+
+.about-tijdlijn {
+    padding-bottom: 120px;
+
+    .text {
+        margin-top: 80px;
+    }
+
+    h1 {
+        font-family: $fontset2;
+        text-align: right;
+        font-size: 30px;
+        line-height: 1rem;
+        color: $colorDG;
+        padding-bottom: 138px;
+    }
+
+    h2 {
+        font-family: $fontset2;
+        text-align: right;
+        font-size: 28px;
+        line-height: 1rem;
+        color: $colorW;
+        padding-bottom: 138px;
+        padding-right: 30px;
+    }
+
+    p {
+        font-family: $fontset2;
+        text-align: left;
+        font-size: 24px;
+        color: $colorB;
+        line-height: 1rem;
+    }
+
+    h5 {
+        font-family: $fontset2;
+        text-align: left;
+        font-size: 20px;
+        font-style: italic;
+        color: $colorB;
+        padding-bottom: 88px;
+        line-height: 1.5rem;
+    }
+
+    .image {
+        margin-left: 20px;
+    }
+
+    h6 {
+        padding-top: 19px;
+    }
+}
+
+@media(min-width:$breekpunt) {
+    .about-tijdlijn-titel {
+        .image-lijn {
+            padding-left: 42%;
+            padding-right: 32%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntsm) {
+    .about-tijdlijn-titel {
+        .image-lijn {
+            padding-left: 45%;
+            padding-right: 37%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media(min-width:$breekpuntmd) {
+    .about-home {
+        padding-top: 140px;
+
+        .image-lijn {
+            padding-left: 44%;
+            padding-right: 38%;
+        }
+    }
+}
+
+@media(min-width:$breekpuntlg) {
+    .about-tijdlijn-titel {
+        .image-lijn {
+            padding-left: 47%;
+            padding-right: 40%;
+        }
+    }
+}
+
+
 /* WEBDESIGN */
 
 .webdesign {

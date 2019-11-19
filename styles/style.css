@@ -699,6 +699,427 @@ body {
   }
 }
 
+/* ABOUT ME HEADER */
+.header-about-fl {
+  background-color: #116466;
+  color: #FFFFFF;
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+.header-about-fl h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+/* ABOUT ME SPLITSCREEN */
+.split-screen {
+  margin-top: 80px;
+}
+
+@media (min-width: 992px) {
+  .left {
+    float: left;
+    margin: 0 1.5%;
+    width: 42%;
+  }
+  .right {
+    float: right;
+    margin: 0 1.5%;
+    width: 42%;
+  }
+}
+
+/* ABOUT ME LEFT SCREEN */
+.left {
+  margin-left: 8%;
+}
+
+.left h1 {
+  font-family: "Roboto", sans-serif;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 30px;
+  color: #116466;
+  margin-top: 30px;
+}
+
+.left h2 {
+  font-family: "Roboto", sans-serif;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 24px;
+  color: #1D2F2A;
+  margin-bottom: 10px;
+}
+
+.left h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: left;
+  font-size: 40px;
+  color: #116466;
+  margin-top: 90px;
+}
+
+.left .image-lijn {
+  padding-left: 3%;
+  padding-right: 68%;
+  margin-bottom: 20px;
+}
+
+.left .image-lijn-p {
+  padding-left: 3%;
+  padding-right: 62%;
+  margin-bottom: 20px;
+}
+
+.left .image-score {
+  margin-bottom: 32px;
+  margin-top: 10px;
+  max-height: 18px;
+}
+
+.left .image-ops {
+  margin-bottom: 32px;
+  margin-top: 8px;
+  max-height: 20px;
+  padding-left: 22px;
+}
+
+@media (min-width: 576px) {
+  .left .image-lijn {
+    padding-left: 3%;
+    padding-right: 68%;
+  }
+  .left .image-lijn-p {
+    padding-left: 3%;
+    padding-right: 62%;
+  }
+  .left .image-score {
+    margin-bottom: 32px;
+    margin-top: 10px;
+    max-height: 18px;
+  }
+  .left .image-ops {
+    margin-bottom: 32px;
+    margin-top: 8px;
+    max-height: 20px;
+    padding-left: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .left .image-lijn {
+    padding-left: 3%;
+    padding-right: 78%;
+  }
+  .left .image-lijn-p {
+    padding-left: 3%;
+    padding-right: 72%;
+  }
+  .left .image-score {
+    margin-bottom: 32px;
+    margin-top: 10px;
+    max-height: 18px;
+    padding-right: 30px;
+  }
+  .left .image-ops {
+    margin-bottom: 32px;
+    margin-top: 8px;
+    max-height: 20px;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .left .image-lijn {
+    padding-left: 6%;
+    padding-right: 60%;
+  }
+  .left .image-lijn-p {
+    padding-left: 6%;
+    padding-right: 50%;
+  }
+  .left .image-score {
+    margin-bottom: 32px;
+    margin-top: 9px;
+    max-height: 18px;
+    padding-left: 20px;
+  }
+  .left .image-ops {
+    margin-bottom: 32px;
+    margin-top: 8px;
+    max-height: 20px;
+    padding-left: 26px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .left .image-lijn {
+    padding-left: 3%;
+    padding-right: 74%;
+  }
+  .left .image-lijn-p {
+    padding-left: 3%;
+    padding-right: 68%;
+  }
+  .left .image-score {
+    margin-bottom: 32px;
+    margin-top: 10px;
+    max-height: 18px;
+  }
+  .left .image-ops {
+    margin-bottom: 32px;
+    margin-top: 8px;
+    max-height: 20px;
+    padding-left: 36px;
+  }
+}
+
+/* ABOUT ME RIGHT SCREEN */
+.right {
+  margin-left: 8%;
+  margin-right: 6%;
+}
+
+.right h1 {
+  font-family: "Roboto", sans-serif;
+  line-height: 2rem;
+  text-align: left;
+  font-size: 20px;
+  color: #1D2F2A;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.right h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: left;
+  font-size: 40px;
+  color: #116466;
+  margin-top: 90px;
+}
+
+.right .image-lijn {
+  padding-left: 3%;
+  padding-right: 60%;
+  margin-bottom: 20px;
+}
+
+.right .image-lijn2 {
+  padding-left: 3%;
+  padding-right: 48%;
+  margin-bottom: 20px;
+}
+
+.right .image-score {
+  margin-bottom: 31px;
+  margin-top: 17px;
+}
+
+.right .image-soft {
+  margin-bottom: 33px;
+  margin-top: 10px;
+  max-height: 60px;
+}
+
+@media (min-width: 576px) {
+  .right {
+    margin-left: 8%;
+  }
+  .right .image-lijn {
+    padding-left: 3%;
+    padding-right: 65%;
+  }
+  .right .image-lijn2 {
+    padding-left: 3%;
+    padding-right: 54%;
+  }
+}
+
+@media (min-width: 768px) {
+  .right {
+    margin-left: 8%;
+  }
+  .right .image-lijn {
+    padding-left: 3%;
+    padding-right: 75%;
+  }
+  .right .image-lijn2 {
+    padding-left: 3%;
+    padding-right: 65%;
+  }
+  .right .image-score {
+    margin-bottom: 29px;
+    margin-top: 13px;
+  }
+  .right p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .right {
+    margin-left: 0%;
+  }
+  .right .image-lijn {
+    padding-left: 6%;
+    padding-right: 58%;
+  }
+  .right .image-lijn2 {
+    padding-left: 6%;
+    padding-right: 38%;
+  }
+  .right .image-score {
+    margin-bottom: 33px;
+    margin-top: 17px;
+  }
+  .right p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .right .image-lijn {
+    padding-left: 3%;
+    padding-right: 68%;
+  }
+  .right .image-lijn2 {
+    padding-left: 3%;
+    padding-right: 58%;
+  }
+  .right .image-score {
+    margin-bottom: 31px;
+    margin-top: 17px;
+  }
+  .right p {
+    font-size: 20px;
+  }
+}
+
+/* ABOUT ME TIMELINE */
+.portfolio-bg-lgr-r-fl {
+  clear: both;
+}
+
+.about-tijdlijn-fl {
+  background-color: #D1E8E2;
+}
+
+.about-tijdlijn-titel {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.about-tijdlijn-titel h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.about-tijdlijn-titel .image-lijn {
+  padding-left: 34%;
+  padding-right: 22%;
+  margin-bottom: 30px;
+}
+
+.about-tijdlijn {
+  padding-bottom: 120px;
+}
+
+.about-tijdlijn .text {
+  margin-top: 80px;
+}
+
+.about-tijdlijn h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  font-size: 30px;
+  line-height: 1rem;
+  color: #116466;
+  padding-bottom: 138px;
+}
+
+.about-tijdlijn h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  font-size: 28px;
+  line-height: 1rem;
+  color: #FFFFFF;
+  padding-bottom: 138px;
+  padding-right: 30px;
+}
+
+.about-tijdlijn p {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 24px;
+  color: #1D2F2A;
+  line-height: 1rem;
+}
+
+.about-tijdlijn h5 {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 20px;
+  font-style: italic;
+  color: #1D2F2A;
+  padding-bottom: 88px;
+  line-height: 1.5rem;
+}
+
+.about-tijdlijn .image {
+  margin-left: 20px;
+}
+
+.about-tijdlijn h6 {
+  padding-top: 19px;
+}
+
+@media (min-width: 576px) {
+  .about-tijdlijn-titel .image-lijn {
+    padding-left: 42%;
+    padding-right: 32%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-tijdlijn-titel .image-lijn {
+    padding-left: 45%;
+    padding-right: 37%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-home {
+    padding-top: 140px;
+  }
+  .about-home .image-lijn {
+    padding-left: 44%;
+    padding-right: 38%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-tijdlijn-titel .image-lijn {
+    padding-left: 47%;
+    padding-right: 40%;
+  }
+}
+
 /* WEBDESIGN */
 .webdesign {
   padding-top: 80px;
