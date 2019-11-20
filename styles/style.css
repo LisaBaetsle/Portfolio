@@ -170,6 +170,252 @@ body {
   color: #FFFFFF;
 }
 
+/* LIJNEN */
+/* LIJN 5 */
+.image-lijn5 {
+  padding-left: 36%;
+  padding-right: 18%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .image-lijn5 {
+    padding-left: 42%;
+    padding-right: 28%;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-lijn5 {
+    padding-left: 44%;
+    padding-right: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-lijn5 {
+    padding-left: 45%;
+    padding-right: 32%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-lijn5 {
+    padding-left: 52%;
+    padding-right: 50%;
+  }
+}
+
+/* LIJN 6 */
+.image-lijn6 {
+  padding-left: 40%;
+  padding-right: 22%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .image-lijn6 {
+    padding-left: 42%;
+    padding-right: 32%;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-lijn5 {
+    padding-left: 45%;
+    padding-right: 37%;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-lijn6 {
+    padding-left: 45%;
+    padding-right: 37%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-lijn6 {
+    padding-left: 45%;
+    padding-right: 38%;
+  }
+}
+
+/* LIJN 7 */
+.image-lijn7 {
+  padding-left: 30%;
+  padding-right: 14%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .image-lijn7 {
+    padding-left: 38%;
+    padding-right: 27%;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-lijn7 {
+    padding-left: 41%;
+    padding-right: 32%;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-lijn7 {
+    padding-left: 43%;
+    padding-right: 36%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-lijn7 {
+    padding-left: 44%;
+    padding-right: 38%;
+  }
+}
+
+/* LIJN 8 */
+.image-lijn8 {
+  padding-left: 36%;
+  padding-right: 20%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .image-lijn8 {
+    padding-left: 36%;
+    padding-right: 22%;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-lijn8 {
+    padding-left: 40%;
+    padding-right: 28%;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-lijn8 {
+    padding-left: 43%;
+    padding-right: 32%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-lijn8 {
+    padding-left: 43%;
+    padding-right: 37%;
+  }
+}
+
+/* LIJN 9 */
+.image-lijn9 {
+  padding-left: 33%;
+  padding-right: 16%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .image-lijn9 {
+    padding-left: 34%;
+    padding-right: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-lijn9 {
+    padding-left: 39%;
+    padding-right: 29%;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-lijn9 {
+    padding-left: 41%;
+    padding-right: 33%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-lijn9 {
+    padding-left: 43%;
+    padding-right: 36%;
+  }
+}
+
+/* LIJN 14 */
+.image-lijn14 {
+  padding-left: 24%;
+  padding-right: 7%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .image-lijn14 {
+    padding-left: 26%;
+    padding-right: 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-lijn14 {
+    padding-left: 32%;
+    padding-right: 22%;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-lijn14 {
+    padding-left: 37%;
+    padding-right: 27%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-lijn14 {
+    padding-left: 39%;
+    padding-right: 31%;
+  }
+}
+
+/* LIJN 16 */
+.image-lijn16 {
+  padding-left: 20%;
+  padding-right: 6%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .image-lijn16 {
+    padding-left: 22%;
+    padding-right: 8%;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-lijn16 {
+    padding-left: 29%;
+    padding-right: 19%;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-lijn16 {
+    padding-left: 35%;
+    padding-right: 26%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-lijn16 {
+    padding-left: 38%;
+    padding-right: 30%;
+  }
+}
+
 /* NAVIGATIE */
 .navbar-dark {
   background-color: #116466;
@@ -257,7 +503,7 @@ body {
   background-image: url("images/bg-gr-r-xs.png");
   min-height: 84px;
   background-size: cover;
-  background-position: center top;
+  background-position: center bottom;
 }
 
 @media (min-width: 576px) {
@@ -285,7 +531,7 @@ body {
   background-image: url("images/bg-gr-l-xs.png");
   min-height: 78px;
   background-size: cover;
-  background-position: center top;
+  background-position: center bottom;
 }
 
 @media (min-width: 576px) {
@@ -478,12 +724,6 @@ body {
   color: #116466;
 }
 
-.about-home .image-lijn {
-  padding-left: 34%;
-  padding-right: 22%;
-  margin-bottom: 30px;
-}
-
 .about-home .contact-text {
   margin-top: 20px;
 }
@@ -494,11 +734,6 @@ body {
 }
 
 @media (min-width: 576px) {
-  .about-home .image-lijn {
-    padding-left: 42%;
-    padding-right: 32%;
-    margin-bottom: 20px;
-  }
   .about-home p {
     font-size: 18px;
     line-height: 2rem;
@@ -510,11 +745,6 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
   }
-  .about-home .image-lijn {
-    padding-left: 45%;
-    padding-right: 37%;
-    margin-bottom: 20px;
-  }
   .about-home p {
     font-size: 20px;
     line-height: 2rem;
@@ -525,19 +755,11 @@ body {
   .about-home {
     padding-top: 140px;
   }
-  .about-home .image-lijn {
-    padding-left: 44%;
-    padding-right: 38%;
-  }
 }
 
 @media (min-width: 1200px) {
   .about-home {
     padding-top: 140px;
-  }
-  .about-home .image-lijn {
-    padding-left: 47%;
-    padding-right: 40%;
   }
 }
 
@@ -662,6 +884,24 @@ body {
   line-height: 1rem;
 }
 
+.contact-home a {
+  text-decoration: none;
+  color: #1D2F2A;
+  font-size: 15px;
+  line-height: 0rem;
+}
+
+.contact-home a:hover {
+  border-bottom: solid 2px #F5DC4F;
+  text-decoration: none;
+}
+
+.contact-home a:active {
+  border-bottom: none;
+  text-decoration: none;
+  background-color: #F5DC4F;
+}
+
 @media (min-width: 576px) {
   .contact-home .image-lijn2 {
     padding-left: 38%;
@@ -669,6 +909,10 @@ body {
     margin-bottom: 20px;
   }
   .contact-home p {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+  .contact-home a {
     font-size: 20px;
     line-height: 2rem;
   }
@@ -736,7 +980,7 @@ body {
 
 /* ABOUT ME LEFT SCREEN */
 .left {
-  margin-left: 8%;
+  padding-left: 8%;
 }
 
 .left h1 {
@@ -767,39 +1011,47 @@ body {
   margin-top: 90px;
 }
 
-.left .image-lijn {
-  padding-left: 3%;
-  padding-right: 68%;
+.left p {
+  font-size: 18px;
+}
+
+.left .image-lijn-5 {
+  padding-left: 6%;
+  padding-right: 48%;
   margin-bottom: 20px;
 }
 
-.left .image-lijn-p {
-  padding-left: 3%;
-  padding-right: 62%;
+.left .image-lijn-7 {
+  padding-left: 6%;
+  padding-right: 38%;
   margin-bottom: 20px;
 }
 
 .left .image-score {
   margin-bottom: 32px;
   margin-top: 10px;
-  max-height: 18px;
+  max-height: 16px;
+  padding-left: 20px;
 }
 
 .left .image-ops {
   margin-bottom: 32px;
-  margin-top: 8px;
-  max-height: 20px;
-  padding-left: 22px;
+  margin-top: 12px;
+  max-height: 16px;
+  padding-left: 10px;
 }
 
 @media (min-width: 576px) {
-  .left .image-lijn {
-    padding-left: 3%;
-    padding-right: 68%;
+  .left p {
+    font-size: 20px;
   }
-  .left .image-lijn-p {
-    padding-left: 3%;
-    padding-right: 62%;
+  .left .image-lijn-5 {
+    padding-left: 4%;
+    padding-right: 67%;
+  }
+  .left .image-lijn-7 {
+    padding-left: 4%;
+    padding-right: 60%;
   }
   .left .image-score {
     margin-bottom: 32px;
@@ -815,13 +1067,13 @@ body {
 }
 
 @media (min-width: 768px) {
-  .left .image-lijn {
-    padding-left: 3%;
-    padding-right: 78%;
+  .left .image-lijn-5 {
+    padding-left: 4%;
+    padding-right: 74%;
   }
-  .left .image-lijn-p {
-    padding-left: 3%;
-    padding-right: 72%;
+  .left .image-lijn-7 {
+    padding-left: 4%;
+    padding-right: 69%;
   }
   .left .image-score {
     margin-bottom: 32px;
@@ -838,13 +1090,13 @@ body {
 }
 
 @media (min-width: 992px) {
-  .left .image-lijn {
+  .left .image-lijn-5 {
     padding-left: 6%;
-    padding-right: 60%;
+    padding-right: 52%;
   }
-  .left .image-lijn-p {
+  .left .image-lijn-7 {
     padding-left: 6%;
-    padding-right: 50%;
+    padding-right: 40%;
   }
   .left .image-score {
     margin-bottom: 32px;
@@ -856,18 +1108,18 @@ body {
     margin-bottom: 32px;
     margin-top: 8px;
     max-height: 20px;
-    padding-left: 26px;
+    padding-left: 16px;
   }
 }
 
 @media (min-width: 1200px) {
-  .left .image-lijn {
-    padding-left: 3%;
-    padding-right: 74%;
+  .left .image-lijn-5 {
+    padding-left: 6%;
+    padding-right: 60%;
   }
-  .left .image-lijn-p {
-    padding-left: 3%;
-    padding-right: 68%;
+  .left .image-lijn-7 {
+    padding-left: 6%;
+    padding-right: 50%;
   }
   .left .image-score {
     margin-bottom: 32px;
@@ -884,15 +1136,15 @@ body {
 
 /* ABOUT ME RIGHT SCREEN */
 .right {
-  margin-left: 8%;
-  margin-right: 6%;
+  padding-left: 8%;
+  padding-right: 6%;
 }
 
 .right h1 {
   font-family: "Roboto", sans-serif;
   line-height: 2rem;
   text-align: left;
-  font-size: 20px;
+  font-size: 18px;
   color: #1D2F2A;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -908,58 +1160,77 @@ body {
   margin-top: 90px;
 }
 
-.right .image-lijn {
-  padding-left: 3%;
-  padding-right: 60%;
+.right p {
+  font-size: 16px;
+}
+
+.right .image-lijn-6 {
+  padding-left: 6%;
+  padding-right: 45%;
   margin-bottom: 20px;
 }
 
-.right .image-lijn2 {
-  padding-left: 3%;
-  padding-right: 48%;
+.right .image-lijn-8 {
+  padding-left: 6%;
+  padding-right: 14%;
   margin-bottom: 20px;
 }
 
 .right .image-score {
-  margin-bottom: 31px;
+  margin-bottom: 34px;
   margin-top: 17px;
 }
 
 .right .image-soft {
   margin-bottom: 33px;
   margin-top: 10px;
-  max-height: 60px;
+  max-height: 40px;
 }
 
 @media (min-width: 576px) {
-  .right {
-    margin-left: 8%;
-  }
-  .right .image-lijn {
-    padding-left: 3%;
+  .right .image-lijn-6 {
+    padding-left: 4%;
     padding-right: 65%;
   }
-  .right .image-lijn2 {
-    padding-left: 3%;
-    padding-right: 54%;
+  .right .image-lijn-8 {
+    padding-left: 4%;
+    padding-right: 40%;
+  }
+  .right .image-soft {
+    margin-bottom: 33px;
+    margin-top: 10px;
+    max-height: 43px;
+  }
+  .right .image-score {
+    margin-bottom: 30px;
+    margin-top: 14px;
+  }
+  .right h1 {
+    font-size: 20px;
+  }
+  .right p {
+    font-size: 20px;
   }
 }
 
 @media (min-width: 768px) {
-  .right {
-    margin-left: 8%;
+  .right .image-lijn-6 {
+    padding-left: 4%;
+    padding-right: 72%;
   }
-  .right .image-lijn {
-    padding-left: 3%;
-    padding-right: 75%;
-  }
-  .right .image-lijn2 {
-    padding-left: 3%;
-    padding-right: 65%;
+  .right .image-lijn-8 {
+    padding-left: 4%;
+    padding-right: 55%;
   }
   .right .image-score {
-    margin-bottom: 29px;
+    margin-bottom: 28px;
     margin-top: 13px;
+    max-width: 250px;
+  }
+  .right .image-soft {
+    margin-bottom: 33px;
+    margin-top: 10px;
+    max-height: 50px;
   }
   .right p {
     font-size: 20px;
@@ -968,19 +1239,19 @@ body {
 
 @media (min-width: 992px) {
   .right {
-    margin-left: 0%;
+    padding-left: 0%;
   }
-  .right .image-lijn {
+  .right .image-lijn-6 {
     padding-left: 6%;
-    padding-right: 58%;
+    padding-right: 56%;
   }
-  .right .image-lijn2 {
+  .right .image-lijn-8 {
     padding-left: 6%;
-    padding-right: 38%;
+    padding-right: 28%;
   }
   .right .image-score {
-    margin-bottom: 33px;
-    margin-top: 17px;
+    margin-bottom: 34px;
+    margin-top: 14px;
   }
   .right p {
     font-size: 18px;
@@ -988,17 +1259,17 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .right .image-lijn {
-    padding-left: 3%;
-    padding-right: 68%;
+  .right .image-lijn-6 {
+    padding-left: 6%;
+    padding-right: 60%;
   }
-  .right .image-lijn2 {
-    padding-left: 3%;
-    padding-right: 58%;
+  .right .image-lijn-8 {
+    padding-left: 6%;
+    padding-right: 36%;
   }
   .right .image-score {
     margin-bottom: 31px;
-    margin-top: 17px;
+    margin-top: 14px;
   }
   .right p {
     font-size: 20px;
@@ -1028,95 +1299,153 @@ body {
   color: #FFFFFF;
 }
 
-.about-tijdlijn-titel .image-lijn {
-  padding-left: 34%;
-  padding-right: 22%;
-  margin-bottom: 30px;
+.about-tijdlijn-titel .image-lijn8 {
+  padding-left: 32%;
+  padding-right: 14%;
+  margin-bottom: 20px;
 }
 
-.about-tijdlijn {
-  padding-bottom: 120px;
+.about-tijdlijn-sm {
+  padding-bottom: 80px;
 }
 
-.about-tijdlijn .text {
-  margin-top: 80px;
-}
-
-.about-tijdlijn h1 {
-  font-family: "Roboto", sans-serif;
-  text-align: right;
-  font-size: 30px;
-  line-height: 1rem;
-  color: #116466;
-  padding-bottom: 138px;
-}
-
-.about-tijdlijn h2 {
-  font-family: "Roboto", sans-serif;
-  text-align: right;
-  font-size: 28px;
-  line-height: 1rem;
-  color: #FFFFFF;
-  padding-bottom: 138px;
-  padding-right: 30px;
-}
-
-.about-tijdlijn p {
-  font-family: "Roboto", sans-serif;
-  text-align: left;
-  font-size: 24px;
-  color: #1D2F2A;
-  line-height: 1rem;
-}
-
-.about-tijdlijn h5 {
+.about-tijdlijn-sm h2 {
   font-family: "Roboto", sans-serif;
   text-align: left;
   font-size: 20px;
+  line-height: 1rem;
+  color: #FFFFFF;
+}
+
+.about-tijdlijn-sm p {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 17px;
+  color: #1D2F2A;
+  line-height: 1.2rem;
+  padding-top: 20px;
+}
+
+.about-tijdlijn-sm h5 {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 16px;
   font-style: italic;
   color: #1D2F2A;
-  padding-bottom: 88px;
-  line-height: 1.5rem;
+  padding-top: 0px;
+  padding-bottom: 80px;
+  line-height: 1.2rem;
 }
 
-.about-tijdlijn .image {
-  margin-left: 20px;
-}
-
-.about-tijdlijn h6 {
-  padding-top: 19px;
+.about-tijdlijn-sm .image-tijdlijn {
+  max-width: 6px;
+  height: 100%;
+  padding-top: 16px;
 }
 
 @media (min-width: 576px) {
-  .about-tijdlijn-titel .image-lijn {
-    padding-left: 42%;
-    padding-right: 32%;
-    margin-bottom: 20px;
+  .about-tijdlijn-sm h2 {
+    font-size: 28px;
+  }
+  .about-tijdlijn-sm p {
+    font-size: 22px;
+    line-height: 1rem;
+  }
+  .about-tijdlijn-sm h5 {
+    font-size: 20px;
+    line-height: 1.5rem;
+  }
+  .about-tijdlijn-sm .image-tijdlijn {
+    max-width: 6px;
+    padding-top: 16px;
+  }
+  .about-tijdlijn-titel .image-lijn8 {
+    padding-left: 38%;
+    padding-right: 26%;
   }
 }
 
 @media (min-width: 768px) {
-  .about-tijdlijn-titel .image-lijn {
-    padding-left: 45%;
-    padding-right: 37%;
-    margin-bottom: 20px;
+  .about-tijdlijn {
+    padding-bottom: 120px;
+  }
+  .about-tijdlijn .text {
+    margin-top: 74px;
+  }
+  .about-tijdlijn p {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    font-size: 17px;
+    color: #1D2F2A;
+    line-height: 0rem;
+  }
+  .about-tijdlijn h5 {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    font-size: 14px;
+    font-style: italic;
+    color: #1D2F2A;
+    padding-bottom: 49px;
+    line-height: 1.1rem;
+  }
+  .about-tijdlijn .image-tijdlijn {
+    max-width: 410px;
+    padding-top: 16px;
+  }
+  .about-tijdlijn-titel .image-lijn8 {
+    padding-left: 42%;
+    padding-right: 32%;
   }
 }
 
 @media (min-width: 992px) {
-  .about-home {
-    padding-top: 140px;
-  }
-  .about-home .image-lijn {
+  .about-tijdlijn-titel .image-lijn {
     padding-left: 44%;
     padding-right: 38%;
+  }
+  .about-tijdlijn .text {
+    margin-top: 79px;
+  }
+  .about-tijdlijn .image-tijdlijn {
+    max-width: 420px;
+    padding-top: 16px;
+    padding-left: 10px;
+  }
+  .about-tijdlijn p {
+    font-size: 22px;
+    line-height: 1rem;
+  }
+  .about-tijdlijn h5 {
+    font-size: 19px;
+    padding-bottom: 45px;
+    line-height: 1.5rem;
+  }
+  .about-tijdlijn-titel .image-lijn8 {
+    padding-left: 44%;
+    padding-right: 34%;
   }
 }
 
 @media (min-width: 1200px) {
-  .about-tijdlijn-titel .image-lijn {
-    padding-left: 47%;
-    padding-right: 40%;
+  .about-tijdlijn-titel .image-lijn8 {
+    padding-left: 46%;
+    padding-right: 37%;
+  }
+  .about-tijdlijn .text {
+    margin-top: 86px;
+  }
+  .about-tijdlijn .image-tijdlijn {
+    max-width: 470px;
+    padding-top: 16px;
+  }
+  .about-tijdlijn p {
+    font-size: 24px;
+    line-height: 1rem;
+  }
+  .about-tijdlijn h5 {
+    font-size: 20px;
+    padding-bottom: 62px;
+    line-height: 1.5rem;
   }
 }
 
